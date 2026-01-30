@@ -1,6 +1,6 @@
 # Opracowanie-i-pilotazowe-wdro-enie-architektury-zabezpieczen-dla-konsumenckich-urzadzen-iot
 
-# Opis repozytorium
+
 
 Repozytorium zawiera kod oraz konfiguracje wykorzystane w pracy dyplomowej dotyczącej projektowania i pilotażowego wdrożenia architektury zabezpieczeń dla konsumenckich urządzeń IoT.  
 Projekt opiera się na systemie **Embedded Linux** budowanym przy użyciu **Buildroot**, integracji z **TPM**, oraz komunikacji **CoAP (libcoap)** zabezpieczonej TLS/mTLS.
