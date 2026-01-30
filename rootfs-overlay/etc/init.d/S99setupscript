@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+modprobe brcmfmac
+modprobe spi_bcm2835
+modprobe tpm
+modprobe tpm_tis_spi
+
+tpm2-abrmd --allow-root &
+
+sleep 3 #Wait for wlan0 to come up
+
+iwctl station wlan0 connect Kuria_rzymska --passphrase "kremowka"
+
